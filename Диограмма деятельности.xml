@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-06-08T20:33:12.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="xsXJ60refzbt_TGf04x5" version="24.5.2" type="device">
+  <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
+    <mxGraphModel dx="2194" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="G4WVtOi33m40TKDwOpEx-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-5" value="Заказа нет" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-7" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="139.5" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-10" value="Заказ создан" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-11" value="клиент создаёт&lt;br&gt;заказ" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="139.5" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-12" value="Заказ отменён" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-13" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-12" target="G4WVtOi33m40TKDwOpEx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="149.5" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-14" value="Заказ передан&lt;br&gt;магазину ресторану" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-15" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="139.5" as="sourcePoint" />
+            <mxPoint x="920" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-16" value="заказ успешно&lt;br&gt;передаётся&lt;br&gt;магазину/ресторану" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="943" y="139.5" as="sourcePoint" />
+            <mxPoint x="1060" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-20" value="произошла ошибка/&lt;br&gt;клиент отменил&lt;br&gt;заказ" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-3" target="G4WVtOi33m40TKDwOpEx-21">
+          <mxGeometry x="0.2857" y="-71" relative="1" as="geometry">
+            <mxPoint x="920" y="210" as="sourcePoint" />
+            <mxPoint x="932" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-21" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="300" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-22" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-21" target="G4WVtOi33m40TKDwOpEx-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="149.5" as="sourcePoint" />
+            <mxPoint x="930" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-23" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="488.5" y="300" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-24" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-23" target="G4WVtOi33m40TKDwOpEx-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="sourcePoint" />
+            <mxPoint x="420" y="255" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-25" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="120" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-26" value="Заказ приготовлен" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-27" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="139.5" as="sourcePoint" />
+            <mxPoint x="1320" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-28" value="заказ успешно&lt;br&gt;передаётся&lt;br&gt;магазину/ресторану" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1343" y="139.5" as="sourcePoint" />
+            <mxPoint x="1460" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-31" value="магазин/ресторан&lt;br&gt;не смог&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;выполнить&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;заказ/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;клиент отменил&lt;/span&gt;&lt;div&gt;заказ&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-32">
+          <mxGeometry x="0.4327" y="-82" relative="1" as="geometry">
+            <mxPoint x="1332" y="160" as="sourcePoint" />
+            <mxPoint x="1332" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-32" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="300" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-32" target="G4WVtOi33m40TKDwOpEx-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="330" as="sourcePoint" />
+            <mxPoint x="950" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-34" value="Нет курьера для заказа" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-35" value="новый курьер&lt;div&gt;не найден&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-34" target="G4WVtOi33m40TKDwOpEx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="500" as="sourcePoint" />
+            <mxPoint x="1457" y="500.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-36" value="курьер найден" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-34" target="G4WVtOi33m40TKDwOpEx-26">
+          <mxGeometry y="60" relative="1" as="geometry">
+            <mxPoint x="1363" y="159.5" as="sourcePoint" />
+            <mxPoint x="1500" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-37" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-26" target="G4WVtOi33m40TKDwOpEx-38">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1230" y="410" as="sourcePoint" />
+            <mxPoint x="1750" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1765" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-38" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1753" y="300" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-39" value="возникли проблемы&lt;br&gt;с курьером" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1753" y="319.47" as="sourcePoint" />
+            <mxPoint x="1616" y="319.47" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-40" value="клиент отменил&lt;br&gt;заказ" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-38" target="G4WVtOi33m40TKDwOpEx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1616.5" y="440" as="sourcePoint" />
+            <mxPoint x="1463.5" y="440.53" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1765" y="440" />
+              <mxPoint x="1332" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-41" value="курьер забрал заказ" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-38" target="G4WVtOi33m40TKDwOpEx-42">
+          <mxGeometry x="-0.5287" y="10" relative="1" as="geometry">
+            <mxPoint x="1353" y="149.5" as="sourcePoint" />
+            <mxPoint x="1920" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1920" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-42" value="Заказ приготовлен" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-43" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="519.47" as="sourcePoint" />
+            <mxPoint x="1740" y="519.47" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-44" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="500" width="23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-45" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;возникли&lt;br&gt;проблемы с&lt;br&gt;доставкой заказа/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;клиент отменил&lt;/span&gt;&lt;div&gt;заказ&lt;/div&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-44" target="G4WVtOi33m40TKDwOpEx-21">
+          <mxGeometry x="-0.375" y="-68" relative="1" as="geometry">
+            <mxPoint x="1110" y="360" as="sourcePoint" />
+            <mxPoint x="1120" y="440" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-47" value="Заказ доставлен" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-48" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="519.47" as="sourcePoint" />
+            <mxPoint x="780" y="519.47" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-49" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="G4WVtOi33m40TKDwOpEx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="519.47" as="sourcePoint" />
+            <mxPoint x="511" y="519.47" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-50" value="Заказ завершён" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-51" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G4WVtOi33m40TKDwOpEx-50">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="960" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="440" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-53" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4WVtOi33m40TKDwOpEx-55" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;Диаграмма деятельности, для описания процесса обработки заказа системой&lt;/b&gt;&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=12;align=center;labelX=491.31;" vertex="1" parent="1">
+          <mxGeometry x="247" y="40" width="1763" height="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
