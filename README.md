@@ -12,7 +12,8 @@
 
 ## Диаграмма последовательности для процесса
 
-![Диаграмма последовательности для процесса](https://github.com/NeverovVictor/Programming-technologies-3/assets/168683116/9e96115f-8ed0-478b-bc0a-4d96179d49d5)
+![Диаграмма последовательности для процесса](https://github.com/NeverovVictor/Programming-technologies-3/assets/168683116/36988f18-fe39-4dd4-8abf-b897d3874fe7)
+
 
 ## Диаграмма состояний для заказа
 
